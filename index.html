@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header id="header">
+        <span id="Portfolio">Portfolio</span>
+        <nav id=Navbar>
+            <ul>
+                <li class="list"><a href="#" id="lit1">Home</a></li>
+                <li class="list"><a href="#" id="lit2">Skills</a></li>
+                <li class="list"><a href="#" id="lit3">Projects</a></li>
+                <li class="list"><a href="#" id="lit4">Contacts</a></li>
+                <li> <button id="modeChanger">%</button></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="leftSec">
+            <pre id="left">
+        Hello,it's Me 
+        <span id="name">BURI BURI ZAEMON,</span>
+        And I am a   <span id="element"></span>
+    </pre>
+            <div id="about">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores magnam dignissimos doloremque debitis
+                rerum dolore quidem quaerat non maiores mollitia praesentium porro deserunt adipisci enim tempora, quae
+                molestiae nulla fuga?
+            </div>
+            <div id="buttonContainer">
+                <a class="btns buton btn1">f</a>
+                <a class="btns buton">i</a>
+                <a class="btns buton">w</a>
+                <a class="btn buton">More</a>
+            </div>
+        </section>
+        <section id="right">
+            <div id="image">
+                <div id="imgContainer">
+                    <img id="img" src="7-1.png" alt="img.jpg">
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['WEB DEVLOPER', 'BUSINESS ADVISOR','BACKEND','WEB DESIGNER'],
+          typeSpeed: 100,
+        });
+      </script>
+    
+</body>
+
+</html>
