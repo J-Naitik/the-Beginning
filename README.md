@@ -27,7 +27,7 @@ A portfolio-style web page where I play around with:
 
 ## 🖼️ Screenshot
 
-![My Portfolio Screenshot](7-1.png)
+
 
 ---
 
